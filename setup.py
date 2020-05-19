@@ -9,8 +9,7 @@ setup(
     packages=find_packages(),
     python_requires='>=3.5',
     install_requires=[
-        'beautifulsoup4',
-        'lxml'
+        'beautifulsoup4'
     ],
     entry_points={
         'console_scripts': [

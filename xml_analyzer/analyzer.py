@@ -38,7 +38,6 @@ class Analyzer:
                 cmp_data = origin_data - cur_data
                 if len(cmp_data) <= len(origin_data)/2:
                     raw_diff[len(cmp_data)] = cur_elem
-        print(raw_diff)
         res = sorted(list(raw_diff.keys()))
         if len(res) == 0:
             self.diff_report = 'Cannot find element similar to the target'
